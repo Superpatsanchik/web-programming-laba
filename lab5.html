@@ -56,6 +56,21 @@
             .d {
                 position: relative;
             }
+            .j {
+                background-clip: content-box;
+                background-color: #789013;
+                border: 2px solid rgb(255, 200, 150);
+                border-radius: 20px;
+                width: 300px;
+                height: 100px;
+                position: relative;
+            }
+            .j:hover {
+                background-color: #ff9100;
+                background-clip: content-box;
+                border: 3px green solid;
+                z-index: 2;
+            }
         </style>
     </head>
     <body>
@@ -99,6 +114,17 @@
                 Зимы блистательным ковром.<br>
                 Все ярко, все бело кругом.
             </div>
+
+            <h1>Лесенка</h1>
+            <div class="j">block 1</div>
+            <div class="j"
+                style="top: -15px; left: 30px;">block 2</div>
+            <div class="j"
+                style="top: -30px; left: 60px;">block 3</div>
+            <div class="j"
+                style="top: -45px; left: 90px;">block 4</div>
+            <div class="j"
+                style="top: -60px; left: 120px;">block 5</div>
         </div>
         <div class="footer">
             Факультет бизнеса, ФБИ-01, 3 курс, 2022
