@@ -38,7 +38,7 @@ function makeStairs() {
     for(let i = 0; i<stepCount; i++) {
         stairs.innerHTML += '<div class="step"></div>';
     }
-    
+
     let steps = document.querySelectorAll('.step');
     for(let i = 0; i<steps.length; i++) {
         steps[i].style.left = (30 + 10*i) + 'px';
