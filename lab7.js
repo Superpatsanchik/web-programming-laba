@@ -46,3 +46,19 @@ function makeStairs() {
         steps[i].innerHTML = 'Блок номер' + Number(i + 1);
     }
 }
+function Makesnowing() {
+    let snegopadius = document.querySelector('#snegopadius');
+    let stepCount = 50;
+    for (let i = 0; i<stepCount; i++) {
+        snegopadius.innerHTML += '<img class="snezhinki" src="https://w7.pngwing.com/pngs/726/191/png-transparent-snowflake-snowflake-white-winter-symmetry-thumbnail.png">';
+    }
+    let snezhinki = document.querySelectorAll('.snezhinki');
+    let screenWidth = window.screen.width;
+    let screenHeight = window.screen.height;
+
+    for (let i = 0; i<snezhinki.length; i++) {
+        snezhinki[i].style.left = Math.random() * (screenWidth-50) + 'px';
+        snezhinki[i].style.top = Math.random() * (screenHeight-50) + 'px';
+        snezhinki[i].style.width = Math.random() * 100 + 'px';
+    }
+}
