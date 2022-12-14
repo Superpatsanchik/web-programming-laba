@@ -26,3 +26,11 @@
     color: blue;
     padding-left: 20px;
 }
+#time {
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
