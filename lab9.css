@@ -26,3 +26,12 @@
     color: blue;
     padding-left: 20px;
 }
+#coords {
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    color: azure;
+    text-align: center;
+    align-items: center;
+    line-height: 30em;
+}
